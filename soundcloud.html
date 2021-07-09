@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soundcloud</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css"/>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="aside">
+        <i class="icon fas fa-bars"></i>
+        <i class="icon fas fa-home"></i>
+        <i class="icon fas fa-search"></i>
+        <i class="icon fas fa-volume-up"></i>
+        <i class="icon fas fa-user"></i>
+        <i class="icon fab fa-spotify"></i>
+        <i class="icon fas fa-cog"></i>
+        <i class="icon fab fa-soundcloud"></i>
+      </aside>
+      <main class="main">
+        <div class="content-top">
+          <div class="left">
+            <img src="./img/soundcloud.png" alt="" width="200px" height="200px"/>
+          </div>
+          <div class="right">
+            <p id="NameSong1">Name Music</p>
+            <p class="hide">Singer</p>
+            <p class="hide">Mucsic Hot 2021</p>
+            <div class="setting">
+              <div><i class="fas fa-play-circle"></i>Phát tất cả</div>
+              <div class="set">
+                <i class="fas fa-plus-circle"></i>Thêm vào yêu thích
+              </div>
+              <div class="set hide">
+                <i class="fas fa-ellipsis-h"></i>Xem thêm
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-bottom">
+          <div  class="column name">
+            <p class="content hide">Nhạc</p>
+            <p class="content hide">Tác giả</p>
+            <p class="content hide">Thời Lượng</p>
+            <p class="content hide">Thể Loại</p>
+          </div>
+          <div class="column" id="column1"
+            <p class="content">1. 99999 đóa hoa hồng</p>
+            <p class="content hide">Phin</p>
+            <p class="content">3:09</p>
+            <p class="content hide">POP/RAP</p>
+          </div>
+          <div class="column" id="column1">
+            <p class="content">2. Cua</p>
+            <p class="content hide">Hieuthuhai</p>
+            <p class="content">3:13</p>
+            <p class="content hide">RAP</p>
+          </div>
+          <div class="column" id="column1">
+            <p class="content">3. Cried</p>
+            <p class="content hide">Visual</p>
+            <p class="content">4:02</p>
+            <p class="content hide">POP</p>
+          </div>
+          <div class="column" id="column1">
+            <p class="content">4. Don't Waste My Time</p>
+            <p class="content hide">16 Typh x Lil Wuyn</p>
+            <p class="content">3:18</p>
+            <p class="content hide">RAP</p>
+          </div>
+          <div  class="column" id="column1">
+            <p class="content">5. Xích Thêm Chút</p>
+            <p class="content hide">Rapital</p>
+            <p class="content">3:04</p>
+            <p class="content hide">POP</p>
+          </div>
+          <div class="column" id="column1">
+            <p class="content">6. Malibu</p>
+            <p class="content hide">$ATIVA x 16 Typh</p>
+            <p class="content">2:54</p>
+            <p class="content hide">RAP</p>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="ndleft">
+          <div class="img">
+            <img id="rangerImg" src="/img/soundcloud.png" alt="" width="80px" height="80px" />
+          </div>
+          <div class="chu">
+            <p id="NameSong" class="hide">99999 đóa hoa hồng</p>
+            <p id="Singerr">Phin</p>
+          </div>
+        </div>
+        <div class="ndright">
+          <button onclick="pre_song()" id="back">
+            <i class="icon1 fas fa-step-backward"></i>
+          </button>
+          <button onclick="checkplay();" id="play">
+            <i class="icon1 fa fa-play"></i>
+          </button>
+          <button onclick="next_song()"; onclick="colorColumn()"; id="next";>
+            <i class="icon1 fas fa-step-forward"></i>
+          </button>
+          <button id="repeat"><i class="icon1 fad fa-repeat"></i></button>
+          <button class="hide"><i class="icon1 fas fa-random"></i></button>
+        </div>
+      </footer>
+      <script src="./js/play.js"></script>
+    </div>
+  </body>
+</html>
